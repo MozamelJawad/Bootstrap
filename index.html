@@ -1,0 +1,86 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Project</title>
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+
+    <style>
+        #introduction {
+            background-image: url(assets/bg_image.png);
+            background-repeat: no-repeat;
+            background-size: 100%;
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-md navbar-light">
+        <div class="container-lg">
+            <a href="" class="navbar-brand">
+                <span class="fw-bold text-primary">
+                    JAWAD
+                </span>
+            </a>
+          
+              <!-- Toggle button for mobile navbar -->
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar Menue -->
+            <div class="collapse navbar-collapse justify-content-end align-center" id="main-nav">
+                <ul class="navbar-nav m-3">
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#topics">Portfolio</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#reviews">About</a>
+                    </li>
+                    <li class="nav-item me-3">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Headign and name section -->
+    <section id="introduction">
+        <div class="container-lg">
+            <div class="row justify-content-start">
+                <div class="col-md-12 mt-5 pt-5 ">
+                    <h2>
+                        <div class="display-5 text-primary">I'm Mozamel Jawad.<br>Glad to see you</div>
+                    </h2>
+                </div>
+                <div class="col-md-10 mt-3">
+                    <p class="lead text-muted">
+                        I’m a software developer! I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hesitate to contact me.
+                    </p>
+                </div>
+                <div class="col-md-8">
+                    <span>
+                        <a href="#" class="list-group-item list-group-item-action link-primary"> LET’S CONNECT </a>
+                    </span>
+                </div>
+                <div class="col-md-8">
+                        <div class="list-group-item py-3">
+                            <div class="pb-3">
+                                <a href="#"><i class="bi bi-twitter me-3"></i></a>
+                                <a href="#"><i class="bi bi-linkedin me-3"></i></a>
+                                <a href="#"><i class="bi bi-facebook me-3"></i></a>
+                                <a href="#"><i class="bi bi-github me-3"></i></a>
+                                <a href="#"><i class="bi bi-instagram me-3"></i></a>
+                            </div>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+<script src="/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
